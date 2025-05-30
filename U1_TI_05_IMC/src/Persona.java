@@ -13,9 +13,9 @@ public class Persona {
         double imc = calcularIMC();
         if (imc < 18.5) {
             return "Bajo peso";
-        } else if (imc < 24.9) {
+        } else if (imc>=18.5 && imc <= 24.9) {
             return "Peso normal";
-        } else if (imc < 29.9) {
+        } else if (imc>=25 && imc <= 29.9) {
             return "Sobrepeso";
         } else {
             return "Obesidad";
@@ -43,7 +43,7 @@ public class Persona {
     public void setPeso(double peso) {
         this.peso = peso;
     }
-    
+
 
 
 }
