@@ -24,6 +24,7 @@ public class App {
         System.out.println("Tu altura es: " + persona.getAltura() + " m");
         System.out.println("Clasificación: " + clasificacion);  
 
+        
         sc.close();
 
     }
